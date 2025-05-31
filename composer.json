@@ -1,14 +1,14 @@
 {
-    "name": "jxlwqq/star-rating",
+    "name": "adu42/star-rating",
     "description": "Star Rating extension for laravel-admin.",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jxlwqq/star-rating",
+    "homepage": "https://github.com/adu42/star-rating",
     "license": "MIT",
     "authors": [
         {
-            "name": "jxlwqq",
-            "email": "jxlwqq@gmail.com"
+            "name": "adu42",
+            "email": "adu42@gmail.com"
         }
     ],
     "require": {
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jxlwqq\\StarRating\\": "src/"
+            "Adu42\\StarRating\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jxlwqq\\StarRating\\StarRatingServiceProvider"
+                "Adu42\\StarRating\\StarRatingServiceProvider"
             ]
 
         }
