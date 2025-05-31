@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\StarRating;
+namespace Adu42\StarRating;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
@@ -23,7 +23,7 @@ class StarRatingServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/laravel-admin-ext/star-rating')],
+                [$assets => public_path('vendor/adu42/star-rating')],
                 'laravel-admin-star-rating'
             );
         }
