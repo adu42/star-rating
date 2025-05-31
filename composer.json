@@ -1,5 +1,5 @@
 {
-    "name": "laravel-admin-ext/star-rating", 
+    "name": "adu42/star-rating", 
     "description": "Star Rating extension for laravel-admin.",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "adu42",
-            "email": "adu42@gmail.com"
+            "email": "doorla@qq.com"
         }
     ],
     "require": {
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\StarRating\\": "src/"
+            "Adu42\\StarRating\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\StarRating\\StarRatingServiceProvider"
+                "Adu42\\StarRating\\StarRatingServiceProvider"
             ]
 
         }
