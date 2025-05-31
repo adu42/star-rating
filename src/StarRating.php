@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: jxlwqq
+ * User: Adu42
  * Date: 2018/9/12
  * Time: 16:39
  */
 
-namespace Jxlwqq\StarRating;
+namespace Encore\StarRating;
 
 
 use Encore\Admin\Admin;
