@@ -1,6 +1,6 @@
 <?php
 
-namespace Jxlwqq\StarRating;
+namespace Encore\StarRating;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
