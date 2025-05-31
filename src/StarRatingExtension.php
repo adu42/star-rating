@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\StarRating;
+namespace Adu42\StarRating;
 
 use Encore\Admin\Extension;
 
